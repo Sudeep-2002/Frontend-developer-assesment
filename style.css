@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6034db; /* Blue background */
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6034db;
+    padding: 10px;
+}
+
+.left {
+    font-size: 2em;
+}
+
+.right a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.email-form {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 500px;
+    
+}
+
+button[type="submit"] {
+    background-color: hsla(142, 77%, 32%, 0.686);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
